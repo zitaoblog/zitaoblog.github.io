@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myFirstWeb</title>
+    <title>zztBlog</title>
+    <link rel="icon herf" href="image/logo.jpg" sizes="16*16"  border-radius: 50%;>
     <style>
     * { padding: 0; margin: 0; border: 0; }
     #loading-animation {
@@ -137,9 +138,12 @@
 
     <script>
         window.addEventListener('load', function() {
-        var loadingAnimation = document.getElementById('loading-animation');
-        loadingAnimation.style.display = 'none';
-        });
+  var loadingAnimation = document.getElementById('loading-animation');
+  setTimeout(function() {
+    loadingAnimation.style.display = 'none';
+  }, 1000); // 在这里设置延迟时间（以毫秒为单位）
+});
+
 
     </script>
     </body>
